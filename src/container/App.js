@@ -24,11 +24,11 @@ function App() {
         {
           isLoading ? <CR3WLogo /> :
             <div className="App">
-              <Tahmid />
-              <Alif />
               <Sourav />
               <Arman />
               <Piash />
+              <Tahmid />
+              <Alif />
               <Siam />
               <Sunan />
               <Footer />
