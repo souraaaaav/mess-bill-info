@@ -32,12 +32,12 @@ const Arman = () => {
                         <input disabled type="text" id="card-holder" placeholder="143৳" />
                     </div>
                     <div id="cardholder-container-up">
-                        <label for="card-holder">Filter kit
+                        <label for="card-holder">Filter <br /> kit
                         </label>
                         <input type="text" id="card-holder" placeholder="172৳" />
                     </div>
                     <div id="cardholder-container-up">
-                        <label for="card-holder">Mess Charge
+                        <label for="card-holder">Mess <br /> Charge
                         </label>
                         <input type="text" id="card-holder" placeholder="37৳" />
                     </div>
@@ -57,7 +57,7 @@ const Arman = () => {
                         <input id="card-year" type="text" placeholder="2022" length="2" />
                     </div>
                     <div id="cvc-container">
-                        <label for="card-cvc"> Room number</label>
+                        <label for="card-cvc"> Room <br />number</label>
                         <input id="card-cvc" placeholder="301" type="text" min-length="3" max-length="4" />
 
                     </div>
