@@ -8,8 +8,8 @@ const Piash = () => {
                 <p style={{ color: 'green' }}>Md. Al Amin</p>
             </div>
             <div id="card-success" class="visible">
-                <i class="fa fa-times" style={{ color: 'red' }}></i>
-                <p style={{ color: 'red' }}>Payment Due!</p>
+                <i class="fa fa-check"></i>
+                <p>Payment Successful!</p>
             </div>
             <div id="form-container">
 
@@ -53,8 +53,8 @@ const Piash = () => {
                         <label for="card-exp">
                             Pay Date
                         </label>
-                        <input id="card-month" type="text" placeholder="MM" length="2" />
-                        <input id="card-year" type="text" placeholder="YY" length="2" />
+                        <input id="card-month" type="text" placeholder="15 May" length="2" />
+                        <input id="card-year" type="text" placeholder="2022" length="2" />
                     </div>
                     <div id="cvc-container">
                         <label for="card-cvc"> Room <br />number</label>
